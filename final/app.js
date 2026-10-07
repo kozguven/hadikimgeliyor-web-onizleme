@@ -23,7 +23,7 @@
   var rot=document.querySelector('.rot');
   if(rot&&!reduce&&!root.classList.contains('in-frame')){
     var pre=rot.querySelector('.p'), w=rot.querySelector('.w');
-    var seq=[['Hadi','kahve?'],['Hadi','pub?'],['Hadi','konser?'],['Hadi','maça?'],['Hadi,','kim geliyor?']];
+    var seq=[['Hadi','kahve?'],['Hadi','pub?'],['Hadi','konser?'],['Hadi','maç?'],['Hadi,','kim geliyor?']];
     var i=0;
     function show(){
       w.classList.add('out');
@@ -78,7 +78,7 @@
     {id:'dating',k:['dating','flort','sevgili','tinder','eslesme','date','romantik','tanisma','arkadas bul'],a:'Hayır. Hadi\'de merkezde kişi değil plan var; aynı şeyi yapmak isteyenler plana katılmak için talep gönderir.',c:['Nasıl Çalışır\'a bak','nasil-calisir.html']},
     {id:'guven',k:['guven','dogrula','sms','sikayet','taciz','tehlike','risk','emniyet'],a:'Telefonlar SMS ile doğrulanır, katılımı plan sahibi onaylar, sohbet yalnız kabul edilenlere açılır. Şikâyet menüsü de var.',c:['Güvenli Buluşma','guvenli-bulusma.html']},
     {id:'ticari',k:['ticari','mekan','organizator','atolye','isletme','marka','kafe sahib','restoran'],a:'6 kişiden kalabalık etkinlikler ticari üyelikle açılır. Ticari ekibimize yazabilirsin.',c:['Ticari üyeliği incele','iletisim.html?tur=ticari#form']},
-    {id:'ismarla',k:['ismarl','hesap','kim oder','kim oduyor','odeme','kim ode'],a:'Hesabı plan sahibi belirler: herkes kendi öder, ben ısmarlıyorum ya da birlikte karar veririz.'},
+    {id:'ismarla',k:['ismarl','hesap','kim oder','kim oduyor','odeme','kim ode'],a:'Hesabı plan sahibi belirler: herkes kendi hesabını öder, ben ısmarlıyorum ya da birlikte karar veririz.'},
     {id:'plan_ac',k:['plan ac','plan olustur','plan kur','nasil plan','plani ac','plan acar','yayinla','plan yap'],a:'Aktiviteyi, yeri, zamanı, kişi sayısını ve hesap tercihini seç, yayınla. Bir dakikanı alır.',c:['Nasıl Çalışır\'a bak','nasil-calisir.html']},
     {id:'katil',k:['katil','talep','basvur','dahil'],a:'Plana katılma talebi gönder. Plan sahibi onaylarsa plan sohbetine eklenirsin.',c:['Hadi\'ye Katıl',J]},
     {id:'sehir',k:['sehir','istanbul','ankara','izmir','bursa','antalya','eskisehir','nerede','hangi il'],a:'Şu an İstanbul, Ankara ve İzmir\'de. Bursa, Antalya ve Eskişehir yakında.',c:['İstanbul planları','sehir-istanbul.html']},
