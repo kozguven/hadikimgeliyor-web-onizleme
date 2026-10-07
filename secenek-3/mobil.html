@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Mobil Görünüm | Hadi Kim Geliyor? Seçenek 3</title>
+<meta name="description" content="Hadi Kim Geliyor web sitesi ön tasarımı, Seçenek 3 Hadi Sohbeti: sitenin 375 piksel mobil görünümleri.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+body{background:var(--krem)}
+.m-bas{padding:28px 0 8px}
+.m-bas img{height:64px;width:auto;margin-bottom:12px}
+.m-bas h1{font-size:clamp(30px,4vw,44px)}
+.m-bas p{color:var(--ikincil);max-width:720px}
+.m-izgara{display:grid;grid-template-columns:repeat(auto-fill,minmax(395px,1fr));gap:36px 24px;padding:24px 0 80px;justify-items:center}
+.m-tel{margin:0;break-inside:avoid;page-break-inside:avoid}
+.m-cerceve{width:399px;height:804px;border-radius:48px;background:var(--lacivert);padding:12px;box-shadow:0 18px 40px rgba(6,27,56,.2)}
+.m-cerceve iframe{width:375px;height:780px;border:0;border-radius:36px;background:#fff;display:block}
+figcaption{text-align:center;margin-top:12px;font-weight:700;color:var(--lacivert);max-width:399px}
+@media (max-width:440px){.m-izgara{grid-template-columns:1fr} .m-tel{width:336px;overflow:hidden} .m-cerceve{transform:scale(.84);transform-origin:top left;margin-bottom:-128px}}
+@page{size:A4 landscape;margin:10mm}
+@media print{
+  body{background:#fff}
+  .m-bas{display:none}
+  .m-izgara{display:grid;grid-template-columns:repeat(4,1fr);gap:0 6mm;padding:0}
+  .m-tel{width:240px;justify-self:center} .m-tel .m-wrap{width:240px;height:483px;overflow:hidden}
+  .m-cerceve{width:399px;height:804px;transform:scale(.6);transform-origin:top left;box-shadow:none}
+  .m-tel:nth-child(4n){break-after:page;page-break-after:always}
+  figcaption{font-size:9pt;margin-top:2mm}
+}
+</style>
+</head>
+<body>
+<main class="kap">
+  <header class="m-bas"><img src="../assets/img/logo.png" alt="Hadi Kim Geliyor? logosu" width="600" height="516"><h1>Seçenek 3: Hadi Sohbeti, mobil görünüm</h1><p>Sitenin 375 piksel genişlikteki telefon görünümleri. Alttaki sabit "Hadi'ye Katıl" çubuğu başparmağın ulaştığı yerde durur.</p></header>
+  <div class="m-izgara"><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="index.html" title="Ana sayfa: sohbet balonlarıyla açılan hero" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Ana sayfa: sohbet balonlarıyla açılan hero</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="index.html#planlar" title="Örnek planlar: yana kaydırılan davet kartları" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Örnek planlar: yana kaydırılan davet kartları</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="nasil-calisir.html#olustur" title="Nasıl çalışır: her adımda uygulama ekranı" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Nasıl çalışır: her adımda uygulama ekranı</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="aktivite-konser.html" title="Aktivite sayfası: Konser" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Aktivite sayfası: Konser</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="ticari.html" title="Bireysel & Ticari karşılaştırma" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Bireysel & Ticari karşılaştırma</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="guvenli-bulusma.html" title="Güvenli buluşma" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Güvenli buluşma</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="sss.html" title="SSS: açılır cevaplar" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>SSS: açılır cevaplar</figcaption></figure><figure class="m-tel"><div class="m-wrap"><div class="m-cerceve"><iframe src="iletisim.html#form" title="İletişim formu ve KVKK onayı" width="375" height="780" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>İletişim formu ve KVKK onayı</figcaption></figure></div>
+</main>
+<div class="ekranlar"><button type="button" aria-expanded="false" aria-label="Ekranlar">Ekranlar</button><div class="liste"><a href="index.html">Ana sayfa</a><a href="nasil-calisir.html">Nasıl çalışır</a><a href="aktiviteler.html">Aktiviteler</a><a href="aktivite-konser.html">Aktivite: Konser</a><a href="sehir-istanbul.html">Şehir: İstanbul</a><a href="ticari.html">Bireysel & Ticari</a><a href="guvenli-bulusma.html">Güvenli buluşma</a><a href="sss.html">SSS</a><a href="iletisim.html">İletişim</a><a href="mobil.html">Mobil görünüm</a><a class="tum" href="../index.html">Tüm seçenekler</a></div></div>
+<script src="app.js"></script>
+</body>
+</html>

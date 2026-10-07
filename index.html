@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Hadi Kim Geliyor? — Web Sitesi Ön Tasarım Rehberi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1C2024;--muted:#5D6570;--line:#E3E6EA;--bg:#FFFFFF;--soft:#F4F6F7;--accent:#C2410C;--accent-d:#9A3412}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Public Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:16px;padding-bottom:16px;font-size:14px;color:var(--muted)}
+header b{color:var(--ink)}
+.intro{padding:48px 0 28px}
+h1{font-size:clamp(30px,5vw,46px);line-height:1.12;font-weight:800;letter-spacing:-.02em;max-width:18ch}
+.intro p{margin-top:16px;max-width:62ch;color:var(--muted);font-size:18px}
+.opts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding:18px 0 40px}
+.opt{border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;background:#fff}
+.opt .shot{display:block;aspect-ratio:3/4;overflow:hidden;background:var(--soft);border-bottom:1px solid var(--line)}
+.opt .shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.opt .body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.opt h2{font-size:22px;line-height:1.2}
+.opt h2 small{display:block;font-size:14px;font-weight:600;color:var(--muted);margin-bottom:2px}
+.opt p{color:var(--muted);font-size:15.5px}
+.sw{display:flex;gap:6px;margin-top:2px}
+.sw i{width:26px;height:26px;border-radius:50%;border:1px solid rgba(0,0,0,.1);display:block}
+.btn{display:flex;justify-content:center;align-items:center;min-height:48px;border-radius:10px;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;margin-top:auto}
+.btn:hover{background:#000}
+.screens{font-size:14px;display:flex;flex-wrap:wrap;gap:6px}
+.screens a{padding:6px 10px;border:1px solid var(--line);border-radius:20px;text-decoration:none;color:var(--muted)}
+.screens a:hover{border-color:var(--ink);color:var(--ink)}
+section.block{padding:36px 0;border-top:1px solid var(--line)}
+section.block h2{font-size:26px;margin-bottom:14px}
+ol.steps{padding-left:22px;display:grid;gap:10px;max-width:70ch}
+ol.steps li::marker{font-weight:800;color:var(--accent-d)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.note{background:var(--soft);border-radius:12px;padding:18px 20px;color:var(--ink);font-size:16px}
+.note ul{padding-left:20px;display:grid;gap:6px;margin-top:8px;color:var(--muted)}
+.pdf{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 18px;border-radius:10px;border:2px solid var(--ink);text-decoration:none;font-weight:700;margin-top:6px}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:14px}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media (max-width:900px){.opts{grid-template-columns:1fr}.opt .shot{aspect-ratio:4/3}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><span><b>Ön tasarım rehberi</b> · Hadi Kim Geliyor? web sitesi</span><span>Hazırlayan: Webizmo</span></div></header>
+<main class="wrap">
+  <div class="intro">
+    <h1>Web sitesi için üç farklı tasarım yönü</h1>
+    <p>Paylaştığınız Website &amp; Digital Product Brief'ine göre hadikimgeliyor.com için üç ayrı yön hazırladık. Üçü de aynı içeriği taşıyor: ana sayfa, Nasıl Çalışır, Aktiviteler, örnek bir aktivite sayfası (Konser), örnek bir şehir sayfası (İstanbul), Bireysel &amp; Ticari kullanım, Güvenli Buluşma, SSS ve İletişim. Hepsi tıklanabilir; önce telefondan bakmanızı öneririz, çünkü tasarımlar brief'teki gibi mobil öncelikli kuruldu.</p>
+  </div>
+
+  <div class="opts">
+    <article class="opt">
+      <a class="shot" href="secenek-1/index.html"><img src="thumbs/secenek-1.jpg" alt="Seçenek 1 ana sayfa görünümü"></a>
+      <div class="body">
+        <h2><small>Seçenek 1</small>Şehir Afişi</h2>
+        <p>Şehirdeki konser ve sokak afişlerinin enerjisi: tam ekran sokak fotoğrafı üstünde kocaman "Bir planın mı var?" ve yavaşça dönen "Hadi kahve? / pub? / konser? / maça?" satırı. Örnek planlar duvara yapıştırılmış afişler gibi; altlarında gün-saat, aranan kişi sayısı ve "Katılma talebi" olan bir bilet koçanı var. Cesur, canlı, şehirli.</p>
+        <div class="sw" aria-label="Renkler"><i style="background:#061B38"></i><i style="background:#FD8B03"></i><i style="background:#C2410C"></i><i style="background:#F6F7F9"></i><i style="background:#EFA83C"></i></div>
+        <div class="screens"><a href="secenek-1/nasil-calisir.html">Nasıl çalışır</a><a href="secenek-1/aktivite-konser.html">Aktivite sayfası</a><a href="secenek-1/ticari.html">Bireysel &amp; Ticari</a><a href="secenek-1/mobil.html">Mobil görünüm</a></div>
+        <a class="btn" href="secenek-1/index.html">Seçenek 1'i incele</a>
+      </div>
+    </article>
+    <article class="opt">
+      <a class="shot" href="secenek-2/index.html"><img src="thumbs/secenek-2.jpg" alt="Seçenek 2 ana sayfa görünümü"></a>
+      <div class="body">
+        <h2><small>Seçenek 2</small>Uygulamanın Vitrini</h2>
+        <p>Site, uygulamanın doğal devamı: renkler, Poppins yazı tipi ve plan kartları uygulamadakinin aynısı. Ziyaretçi Keşfet ekranını, gelen talepleri ve plan sohbetini telefon maketlerinde görüyor; "Planını oluştur" demosunda adımları kendisi tıklayıp planını yayınlıyor. Ferah, sade, güven veren bir yön.</p>
+        <div class="sw" aria-label="Renkler"><i style="background:#C2410C"></i><i style="background:#FD8B03"></i><i style="background:#061B38"></i><i style="background:#F7F8FA"></i><i style="background:#E8DDFF"></i></div>
+        <div class="screens"><a href="secenek-2/nasil-calisir.html">Nasıl çalışır</a><a href="secenek-2/aktivite-konser.html">Aktivite sayfası</a><a href="secenek-2/ticari.html">Bireysel &amp; Ticari</a><a href="secenek-2/mobil.html">Mobil görünüm</a></div>
+        <a class="btn" href="secenek-2/index.html">Seçenek 2'yi incele</a>
+      </div>
+    </article>
+    <article class="opt">
+      <a class="shot" href="secenek-3/index.html"><img src="thumbs/secenek-3.jpg" alt="Seçenek 3 ana sayfa görünümü"></a>
+      <div class="body">
+        <h2><small>Seçenek 3</small>Hadi Sohbeti</h2>
+        <p>Logodaki konuşma balonlarından doğan, sıcak ve enerjik bir yön. Açılışta "Hadi kahve?", "Hadi konser?", "Hadi maça?" mesajları bir grup sohbetindeki gibi sırayla geliyor; örnek planlar sohbete düşmüş davet kartları gibi duruyor. Mobilde "Hadi'ye Katıl" butonu başparmağın ulaştığı yerde sabit.</p>
+        <div class="sw" aria-label="Renkler"><i style="background:#FD8B03"></i><i style="background:#061B38"></i><i style="background:#C2410C"></i><i style="background:#FFF4E6"></i><i style="background:#DCF4E7"></i></div>
+        <div class="screens"><a href="secenek-3/nasil-calisir.html">Nasıl çalışır</a><a href="secenek-3/aktivite-konser.html">Aktivite sayfası</a><a href="secenek-3/ticari.html">Bireysel &amp; Ticari</a><a href="secenek-3/mobil.html">Mobil görünüm</a></div>
+        <a class="btn" href="secenek-3/index.html">Seçenek 3'ü incele</a>
+      </div>
+    </article>
+  </div>
+
+  <section class="block">
+    <h2>Nasıl inceleyebilirsiniz?</h2>
+    <div class="two">
+      <ol class="steps">
+        <li>Bir seçeneğin ana sayfasını açın; menüden, örnek plan kartlarından ve aktivitelerden diğer sayfalara geçin.</li>
+        <li>Her sayfanın sağ altındaki <b>Ekranlar</b> düğmesi o seçeneğin dokuz sayfasını ve mobil görünümünü listeler; buradan bu rehbere de dönebilirsiniz.</li>
+        <li>Aynı sayfayı üç seçenekte karşılaştırın; örneğin üçünün de ana sayfasına ve Güvenli Buluşma sayfasına bakın.</li>
+        <li>Telefondan ve bilgisayardan ayrı ayrı bakın; masaüstü görünüm küçültülmüş bir mobil sayfa değil, kendi düzeniyle tasarlandı.</li>
+      </ol>
+      <div class="note">
+        <b>Görüşünüzü nasıl iletebilirsiniz?</b>
+        <ul>
+          <li>WhatsApp'tan seçenek numarasını yazmanız yeterli: "Seçenek 2".</li>
+          <li>Karma da olur: "1'in hero bölümü, 2'nin plan kartları".</li>
+          <li>Bir sayfada değişmesini istediğiniz şeyi sayfa adıyla yazın: "SSS'de sorular kategoriye göre ayrılsın".</li>
+          <li>Seçilen yön üzerinden ilerleyip yaptıkça birlikte bakarız.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Mobil görünüm PDF'i</h2>
+    <p style="max-width:68ch;color:var(--muted)">Ziyaretçilerin büyük kısmı reklam ve sosyal medyadan telefonla geleceği için her seçeneğin telefon ekranındaki halini sekiz görünümde topladık: hero, örnek planlar, nasıl çalışır, aktivite sayfası, bireysel/ticari, güvenli buluşma, SSS ve iletişim formu. Hepsini tek dosyada görmek için:</p>
+    <a class="pdf" href="Hadi-Kim-Geliyor-Web-On-Tasarim.pdf">Mobil görünüm PDF'ini aç</a>
+  </section>
+
+  <section class="block">
+    <div class="note">
+      <b>Bilmeniz gerekenler</b>
+      <ul>
+        <li>Bu bir ön tasarımdır: sayfalar tıklanabilir ama planlar, kişiler ve e-posta adresleri örnektir; formlar ve mağaza butonları henüz çalışmaz.</li>
+        <li>Logo ve marka renkleri (turuncu + lacivert) uygulamadakiyle aynıdır; üç seçenek bu kimliği farklı biçimde yorumluyor.</li>
+        <li>Brief'e uygun olarak fiyat, paket, kota ve ürün ekibinin onaylamadığı güvenlik özelliği yazılmadı. Güvenli Buluşma sayfasındaki maddeler uygulamada bugün bulunan özelliklerdir; kesin liste ürün ekibinin onayıyla netleşir.</li>
+        <li>Fotoğraflar temsilidir ve yapay zekâ ile üretilmiştir; yayında gerçek kullanıcı ve etkinlik fotoğraflarıyla değiştirilmesini öneririz.</li>
+        <li>Bu adres geçicidir ve arama motorlarına kapalıdır; seçiminizden sonra kaldırılacaktır.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">Ön tasarım · 07.10.2026 · Webizmo (webizmo.tr) · 0533 817 42 27</div></footer>
+</body>
+</html>

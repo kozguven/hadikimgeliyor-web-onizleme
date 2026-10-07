@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<title>Mobil görünüm | Hadi Kim Geliyor? Seçenek 2</title>
+<meta name="description" content="Seçenek 2 Uygulamanın Vitrini: sitenin 375 piksel genişlikte telefon görünümleri.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+body{background:var(--zemin)}
+.bas{padding:40px 0 8px}
+.bas img{height:64px;margin-bottom:16px}
+.bas h1{font-size:clamp(26px,3vw,36px)}
+.bas p{color:var(--metin2);margin-top:8px;max-width:720px}
+.sayfa{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 20px;padding:32px 0}
+.tk{--s:.62;margin:0;display:flex;flex-direction:column;align-items:center}
+.cer{background:#020E22;border-radius:40px;padding:9px;box-shadow:0 20px 40px rgba(6,27,56,.18)}
+.ek{width:calc(375px*var(--s));height:calc(780px*var(--s));overflow:hidden;border-radius:31px;background:#fff;position:relative}
+.ek iframe{width:375px;height:780px;border:0;transform:scale(var(--s));transform-origin:0 0;display:block;pointer-events:none}
+.tk figcaption{font-size:13px;color:var(--metin2);text-align:center;margin-top:12px;max-width:250px;line-height:1.45}
+@media (max-width:1150px){.sayfa{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.sayfa{grid-template-columns:1fr}.tk{--s:.8}}
+@media print{
+  @page{size:A4 landscape;margin:10mm}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{padding:0;background:#fff}
+  .ekranlar{display:none!important}
+  .bas{padding:0 0 4mm} .bas img{height:40px;margin:0 0 4px} .bas h1{font-size:20px} .bas p{font-size:11px;margin-top:2px}
+  .kap{max-width:none;padding:0}
+  .sayfa{grid-template-columns:repeat(4,1fr);gap:0 4mm;padding:2mm 0 0;break-after:page;page-break-after:always}
+  .sayfa:last-child{break-after:auto;page-break-after:auto}
+  .sayfa+.sayfa{padding-top:6mm}
+  .tk{--s:.6;break-inside:avoid}
+  .cer{box-shadow:none;padding:7px;border-radius:34px}
+  .ek{border-radius:27px}
+  .tk figcaption{font-size:10.5px;margin-top:6px}
+}
+</style></head>
+<body>
+<main class="kap">
+<header class="bas"><img src="../assets/img/logo.png" alt="Hadi Kim Geliyor?"><h1>Seçenek 2: Uygulamanın Vitrini, mobil görünüm</h1><p>Sitenin 375 px telefon ekranındaki görünümleri. Her çerçeve gerçek sayfanın kendisidir.</p></header>
+<div class="sayfa"><figure class="tk"><div class="cer"><div class="ek"><iframe src="index.html?cerceve=1" title="Ana sayfa: mesaj, Hadi'ye Katıl, mağaza butonları ve Keşfet ekranı maketi." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Ana sayfa: mesaj, Hadi'ye Katıl, mağaza butonları ve Keşfet ekranı maketi.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="index.html?cerceve=1#planlar" title="Örnek planlar: uygulamadaki kartın aynısı, yana kaydırılır." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Örnek planlar: uygulamadaki kartın aynısı, yana kaydırılır.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="index.html?cerceve=1#demo" title="Planını oluştur: adım adım ilerleyen interaktif telefon demosu." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Planını oluştur: adım adım ilerleyen interaktif telefon demosu.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="nasil-calisir.html?cerceve=1" title="Nasıl çalışır: her adımda gerçek uygulama ekranı." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Nasıl çalışır: her adımda gerçek uygulama ekranı.</figcaption></figure></div><div class="sayfa"><figure class="tk"><div class="cer"><div class="ek"><iframe src="aktiviteler.html?cerceve=1" title="Aktiviteler: kategori kartları, her biri kendi sayfasına." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Aktiviteler: kategori kartları, her biri kendi sayfasına.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="aktivite-konser.html?cerceve=1" title="Aktivite sayfası: "Konsere birlikte gidecek kimse yok mu?"" scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Aktivite sayfası: "Konsere birlikte gidecek kimse yok mu?"</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="sehir-istanbul.html?cerceve=1#planlar" title="Şehir sayfası: İstanbul'daki açık planlar." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Şehir sayfası: İstanbul'daki açık planlar.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="ticari.html?cerceve=1" title="Bireysel ve ticari: fiyatsız karşılaştırma tablosu." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Bireysel ve ticari: fiyatsız karşılaştırma tablosu.</figcaption></figure></div><div class="sayfa"><figure class="tk"><div class="cer"><div class="ek"><iframe src="guvenli-bulusma.html?cerceve=1" title="Güvenli buluşma: yalnız üründe olan güvenlik adımları." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Güvenli buluşma: yalnız üründe olan güvenlik adımları.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="sss.html?cerceve=1" title="SSS: gruplu, açılır kapanır sorular." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>SSS: gruplu, açılır kapanır sorular.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="iletisim.html?cerceve=1#form" title="İletişim formu: tür seçimi, ek dosya, KVKK onayı." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>İletişim formu: tür seçimi, ek dosya, KVKK onayı.</figcaption></figure><figure class="tk"><div class="cer"><div class="ek"><iframe src="index.html?cerceve=1#indir" title="Uygulamaya geçiş ve altta sabit "Hadi'ye Katıl" çubuğu." scrolling="no" loading="eager" tabindex="-1"></iframe></div></div><figcaption>Uygulamaya geçiş ve altta sabit "Hadi'ye Katıl" çubuğu.</figcaption></figure></div>
+</main>
+<details class="ekranlar"><summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg>Ekranlar</summary><ul><li><a href="index.html">Ana sayfa</a></li><li><a href="nasil-calisir.html">Nasıl çalışır</a></li><li><a href="aktiviteler.html">Aktiviteler</a></li><li><a href="aktivite-konser.html">Aktivite: Konser</a></li><li><a href="sehir-istanbul.html">Şehir: İstanbul</a></li><li><a href="ticari.html">Bireysel &amp; Ticari</a></li><li><a href="guvenli-bulusma.html">Güvenli buluşma</a></li><li><a href="sss.html">SSS</a></li><li><a href="iletisim.html">İletişim</a></li><li><a href="mobil.html" aria-current=page>Mobil görünüm</a></li><li class="ayrac"><a href="../index.html">Tüm seçenekler</a></li></ul></details>
+</body></html>
