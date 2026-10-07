@@ -45,16 +45,36 @@ ol.steps li::marker{font-weight:800;color:var(--accent-d)}
 footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:14px}
 a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media (max-width:900px){.opts{grid-template-columns:1fr}.opt .shot{aspect-ratio:4/3}.two{grid-template-columns:1fr}}
+.final{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;border:2px solid var(--ink);border-radius:16px;padding:22px;margin:8px 0 34px}
+.final img{width:100%;border-radius:10px;border:1px solid var(--line);display:block}
+.final h2{font-size:28px;line-height:1.15}.final p{color:var(--muted);margin-top:10px}
+.final ul{margin:12px 0 18px 20px;display:grid;gap:6px}
+.sub{font-size:24px;margin:6px 0 4px}
+@media (max-width:900px){.final{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header><div class="wrap"><span><b>Ön tasarım rehberi</b> · Hadi Kim Geliyor? web sitesi</span><span>Hazırlayan: Webizmo</span></div></header>
 <main class="wrap">
   <div class="intro">
-    <h1>Web sitesi için üç farklı tasarım yönü</h1>
+    <h1>Web sitesi ön tasarımı: final sürüm hazır</h1>
     <p>Paylaştığınız Website &amp; Digital Product Brief'ine göre hadikimgeliyor.com için üç ayrı yön hazırladık. Üçü de aynı içeriği taşıyor: ana sayfa, Nasıl Çalışır, Aktiviteler, örnek bir aktivite sayfası (Konser), örnek bir şehir sayfası (İstanbul), Bireysel &amp; Ticari kullanım, Güvenli Buluşma, SSS ve İletişim. Hepsi tıklanabilir; önce telefondan bakmanızı öneririz, çünkü tasarımlar brief'teki gibi mobil öncelikli kuruldu.</p>
   </div>
 
+  <section class="final">
+    <a href="final/index.html"><img src="thumbs/final.jpg" alt="Final sürüm ana sayfa görünümü"></a>
+    <div>
+      <h2>Final sürüm</h2>
+      <p>Seçtiğiniz Seçenek 1 (Şehir Afişi) üzerine revizeleriniz işlendi:</p>
+      <ul>
+        <li><b>Hadi Asistan:</b> Seçenek 3'teki konuşma balonları, ziyaretçinin sorularına cevap veren bir asistana dönüştü. Ana sayfada ve her sayfada sağ alttaki düğmeyle açılıyor.</li>
+        <li><b>Daha az yazı:</b> Sayfalardaki metin yaklaşık yarıya indi; büyük başlıklar, fotoğraflar ve afiş kartları öne çıktı.</li>
+      </ul>
+      <div class="screens" style="margin-bottom:14px"><a href="final/nasil-calisir.html">Nasıl çalışır</a><a href="final/sss.html">SSS</a><a href="final/guvenli-bulusma.html">Güvenli Buluşma</a><a href="final/mobil.html">Mobil görünüm</a></div>
+      <a class="btn" href="final/index.html">Final sürümü incele</a>
+    </div>
+  </section>
+  <h2 class="sub">İlk gönderilen üç seçenek</h2>
   <div class="opts">
     <article class="opt">
       <a class="shot" href="secenek-1/index.html"><img src="thumbs/secenek-1.jpg" alt="Seçenek 1 ana sayfa görünümü"></a>
@@ -112,7 +132,7 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent);outline-offse
   <section class="block">
     <h2>Mobil görünüm PDF'i</h2>
     <p style="max-width:68ch;color:var(--muted)">Ziyaretçilerin büyük kısmı reklam ve sosyal medyadan telefonla geleceği için her seçeneğin telefon ekranındaki halini sekiz görünümde topladık: hero, örnek planlar, nasıl çalışır, aktivite sayfası, bireysel/ticari, güvenli buluşma, SSS ve iletişim formu. Hepsini tek dosyada görmek için:</p>
-    <a class="pdf" href="Hadi-Kim-Geliyor-Web-On-Tasarim.pdf">Mobil görünüm PDF'ini aç</a>
+    <a class="pdf" href="Hadi-Kim-Geliyor-Web-Final.pdf">Final sürüm PDF'i</a> <a class="pdf" href="Hadi-Kim-Geliyor-Web-On-Tasarim.pdf">İlk üç seçeneğin PDF'i</a>
   </section>
 
   <section class="block">
